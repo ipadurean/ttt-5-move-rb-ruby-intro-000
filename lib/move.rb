@@ -10,11 +10,7 @@ end
 def input_to_index(user_input)
   "#{user_input}".to_i - 1
 end
-def move(board, position, char = "X")
-
-def update_array_at_with(board, index, char)
-  #{board}[#{index}] = #{char}
-end
-update_array_at_with(board, 0, user_input)
-board
+board = [" ", " ", " "]
+def update_array_at_with(board, index, char = "X")
+  array[index] = value
 end
